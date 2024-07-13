@@ -1,0 +1,44 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    list-style-type: none;
+    color: black;
+}
+
+div{
+    
+    height: 100px;
+    width: 100px;
+    background-color: rgb(189, 27, 127);
+    border: 2px solid black;
+    position: absolute;
+    margin: 20px;
+
+    /*transition: all 2s ease-in;*/
+    animation-name: coloranimate;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes coloranimate{
+    from{background-color: brown;}
+    to{background-color: chartreuse;}
+}
+/*div:hover{
+    background-color: rgb(43, 18, 232);
+   
+    transform: translate(200px,200px);
+    transform: skew(30deg);
+
+}*/
